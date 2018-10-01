@@ -1,5 +1,5 @@
 {
-  "useConfigFiles": false,
+  "useConfigFiles": true,
   "plugins": {
     "@vue/cli-plugin-babel": {},
     "@vue/cli-plugin-eslint": {
@@ -7,6 +7,15 @@
       "lintOn": [
         "save"
       ]
+    }
+  },
+  "configs": {
+    "css": {
+      "loaderOptions": {
+        "sass": {
+          "includePaths": ["./node_modules"]
+        }
+      }
     }
   },
   "router": true,
