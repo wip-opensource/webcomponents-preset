@@ -1,5 +1,3 @@
-# webcomponents-preset
-
 # Getting Started:
 ## Install NVM
 To install or update nvm, you can use the [install script][2] using cURL:
