@@ -58,3 +58,6 @@ Before running your development server
 # Optional
 ## Install yarn
 TODO
+
+# Building with Vue.js
+Documentation of how to use vue.js can be found at https://vuejs.org/
