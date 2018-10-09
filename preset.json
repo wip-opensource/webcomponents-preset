@@ -10,10 +10,12 @@
     }
   },
   "configs": {
-    "css": {
-      "loaderOptions": {
-        "sass": {
-          "includePaths": ["./node_modules"]
+    "vue": {
+      "css": {
+        "loaderOptions": {
+          "sass": {
+            "includePaths": ["./node_modules"]
+          }
         }
       }
     }
