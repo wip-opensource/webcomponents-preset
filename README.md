@@ -72,8 +72,7 @@ server {
   server_name localhost;
 
   location /server/ {
-    #proxy_pass https://skanskadev.wip.se/dynapp-server/public/skanska/rondering/editor/;
-    proxy_pass https://dynappbeta.wip.se/dynapp-server/public/dev/shoppa-karlskrona/editor/;
+    proxy_pass https://skanskadev.wip.se/dynapp-server/public/skanska/rondering/editor/;
   }
 
   location / {
