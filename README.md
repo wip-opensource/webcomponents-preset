@@ -48,8 +48,8 @@ npm run serve
 ## Visit your new app
 http://localhost:8080/
 
-# Continuing on existing repo
-If you clone an existing repo, you must run
+# Continuing on existing app
+If you clone an existing app, you must run
 ```sh
 npm install
 ```
