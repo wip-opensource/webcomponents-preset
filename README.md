@@ -1,5 +1,3 @@
-# webcomponents-preset
-
 # Getting Started:
 ## Install NVM
 To install or update nvm, you can use the [install script][2] using cURL:
@@ -50,8 +48,8 @@ npm run serve
 ## Visit your new app
 http://localhost:8080/
 
-# Continuing on existing repo
-If you clone an existing repo, you must run
+# Continuing on existing app
+If you clone an existing app, you must run
 ```sh
 npm install
 ```
@@ -60,3 +58,28 @@ Before running your development server
 # Optional
 ## Install yarn
 TODO
+
+## Proxy to dynapp-server
+*TODO: Describe more*
+
+Here is an example of a proxy configuration to dynapp-server. We can then develop the client locally and work with data from dynapp-server.
+We are using nginx as proxy, so nginx will first have to be installed.
+```
+server {
+  listen 8888 default_server;
+  listen [::]:8888 default_server;
+
+  server_name localhost;
+
+  location /server/ {
+    proxy_pass https://skanskadev.wip.se/dynapp-server/public/skanska/rondering/editor/;
+  }
+
+  location / {
+    proxy_pass http://localhost:8080/;
+  }
+}
+```
+
+# Building with Vue.js
+Documentation of how to use vue.js can be found at https://vuejs.org/
