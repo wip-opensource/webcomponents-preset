@@ -35,7 +35,7 @@ npm install -g @vue/cli
 The following command will create a new vue project skeleton from our preset.
 The command will create a new folder with the project name at your current directory.
 ```sh
-vue create --preset wip-opensource/webcomponents-preset <name of project>
+vue create --preset wip-opensource/webcomponents-preset --git=false <name of project>
 ```
 
 ## Run the development server of your new project
