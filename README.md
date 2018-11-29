@@ -35,7 +35,7 @@ npm install -g @vue/cli
 The following command will create a new vue project skeleton from our preset.
 The command will create a new folder with the project name at your current directory.
 ```sh
-vue create --preset finpingvin/webcomponents-preset <name of project>
+vue create --preset wip-opensource/webcomponents-preset <name of project>
 ```
 
 ## Run the development server of your new project
@@ -58,28 +58,6 @@ Before running your development server
 # Optional
 ## Install yarn
 TODO
-
-## Proxy to dynapp-server
-*TODO: Describe more*
-
-Here is an example of a proxy configuration to dynapp-server. We can then develop the client locally and work with data from dynapp-server.
-We are using nginx as proxy, so nginx will first have to be installed.
-```
-server {
-  listen 8888 default_server;
-  listen [::]:8888 default_server;
-
-  server_name localhost;
-
-  location /server/ {
-    proxy_pass https://skanskadev.wip.se/dynapp-server/public/skanska/rondering/editor/;
-  }
-
-  location / {
-    proxy_pass http://localhost:8080/;
-  }
-}
-```
 
 # Building with Vue.js
 Documentation of how to use vue.js can be found at https://vuejs.org/
