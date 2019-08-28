@@ -2,7 +2,8 @@
   "useConfigFiles": true,
   "plugins": {
     "vue-cli-plugin-vuetify": {
-      "preset": "default"
+      "preset": "default",
+      "version": "^0.6.3"
     },
     "@vue/cli-plugin-babel": {},
     "@vue/cli-plugin-eslint": {
