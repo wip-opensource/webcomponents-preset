@@ -1,31 +1,21 @@
 {
   "useConfigFiles": true,
   "plugins": {
-    "vue-cli-plugin-vuetify": {
-      "preset": "default",
-      "version": "^0.6.3"
-    },
     "@vue/cli-plugin-babel": {},
+    "@vue/cli-plugin-router": {
+      "historyMode": false
+    },
+    "@vue/cli-plugin-vuex": {},
     "@vue/cli-plugin-eslint": {
       "config": "base",
       "lintOn": [
         "save"
       ]
+    },
+    "vue-cli-plugin-vuetify": {
+      "preset": "default",
+      "version": "^2.0.3"
     }
   },
-  "configs": {
-    "vue": {
-      "css": {
-        "loaderOptions": {
-          "sass": {
-            "includePaths": ["./node_modules"]
-          }
-        }
-      }
-    }
-  },
-  "router": true,
-  "routerHistoryMode": false,
-  "vuex": true,
-  "cssPreprocessor": "sass"
+  "cssPreprocessor": "node-sass"
 }
