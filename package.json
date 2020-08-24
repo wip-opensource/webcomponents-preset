@@ -1,0 +1,19 @@
+{
+  "name": "webcomponents-preset",
+  "version": "0.1.0",
+  "description": "Vue preset for wip web apps",
+  "main": "generator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wip-opensource/webcomponents-preset.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wip-opensource/webcomponents-preset/issues"
+  },
+  "homepage": "https://github.com/wip-opensource/webcomponents-preset#readme"
+}
