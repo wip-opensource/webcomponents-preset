@@ -1,6 +1,6 @@
 {
   "name": "webcomponents-preset",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Vue preset for wip web apps",
   "main": "generator.js",
   "scripts": {
