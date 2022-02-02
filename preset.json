@@ -13,7 +13,15 @@
       ]
     },
     "vue-cli-plugin-vuetify": {
-      "preset": "default",
+      "preset": "configure",
+      "replaceComponents": true,
+      "useTheme": false,
+      "useCustomProperties": false,
+      "iconFont": "mdi",
+      "installFonts": true,
+      "useAlaCarte": true,
+      "usePolyfill": true,
+      "locale": "en",
       "version": "^2.4.3"
     }
   },
