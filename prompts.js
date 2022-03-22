@@ -30,7 +30,7 @@ module.exports = [
     type: 'confirm',
     name: 'dync',
     message: 'Would you like to set this up as a Dync?',
-    default: true,
+    default: false,
     when: ({shortcut}) => shortcut
   },
   {
